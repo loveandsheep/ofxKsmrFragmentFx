@@ -38,7 +38,8 @@ public:
 
 	}
 
-	~ofxKsmrFragmentFx(){
+	~ofxKsmrFragmentFx()
+	{
 		for (int i = 0;i < fxUnits.size();i++)
 			delete fxUnits[i];
 
