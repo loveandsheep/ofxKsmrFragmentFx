@@ -22,6 +22,7 @@ void ofxKsmrFragmentFx::setup(ofFbo* buf, ofFbo::Settings setting){
 	fxUnits.push_back(new FragFXUnits_Noise());
 	fxUnits.push_back(new FragFXUnits_Invert());
 	fxUnits.push_back(new FragFXUnits_verticalSlide());
+	fxUnits.push_back(new FragFXUnits_water());
 
 	for (int i = 0;i < fxUnits.size();i++){
 		fxUnits[i]->setup();

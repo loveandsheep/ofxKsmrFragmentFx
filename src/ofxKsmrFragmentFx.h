@@ -19,6 +19,7 @@
 #include "FragFXUnits_Invert.h"
 #include "FragFXUnits_verticalSlide.h"
 #include "FragFXUnits_EdgeOnTop.h"
+#include "FragFXUnits_water.h"
 
 enum KsmrFragFx_Type{
 	KSMR_FRAGFX_FRINGE,
@@ -28,7 +29,8 @@ enum KsmrFragFx_Type{
 	KSMR_FRAGFX_TEXCHIP,
 	KSMR_FRAGFX_NOISE,
 	KSMR_FRAGFX_INVERT,
-	KSMR_FRAGFX_VERTSLIDE
+	KSMR_FRAGFX_VERTSLIDE,
+	KSMR_FRAGFX_WATER
 };
 
 class ofxKsmrFragmentFx{
