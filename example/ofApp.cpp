@@ -1,7 +1,7 @@
 #include "ofApp.h"
 
 #include "Poco/Base64Decoder.h"
-#include "lenna.h"
+#include "sheepImage.h"
 
 //--------------------------------------------------------------
 void ofApp::setup(){
@@ -17,7 +17,7 @@ void ofApp::setup(){
 
 	//make image for sample
 	stringstream ss;
-	ss << lenna;
+	ss << sheepImage1 << sheepImage2 << sheepImage3 << sheepImage4 << sheepImage5 << sheepImage6;
 	Poco::Base64Decoder b64in(ss);
 
 	ofBuffer buffer;
